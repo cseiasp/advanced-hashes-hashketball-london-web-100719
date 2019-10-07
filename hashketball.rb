@@ -35,8 +35,8 @@ def num_points_scored(player_name)
     information[:players].each do |element|
       
       if element[:name] == player_name
-        answer = element[:points]
-        return answer
+        
+        return element[:points]
       end
       
     end
