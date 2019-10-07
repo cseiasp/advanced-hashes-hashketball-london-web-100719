@@ -52,6 +52,7 @@ def shoe_size(player_name)
       
       if element[:name] == player_name
         answer = element[:shoe]
+        
         return answer
       end
       
