@@ -119,7 +119,7 @@ def big_shoe_rebounds
 
      if element[:shoe] > stats[0]
        stats[0] = element[:shoe]
-       stats[1] = element[:name]
+       
        stats[2] = element[:rebounds]
      end
 
