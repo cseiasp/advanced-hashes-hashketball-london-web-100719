@@ -35,7 +35,6 @@ def num_points_scored(player_name)
     information[:players].each do |element|
       
       if element[:name] == player_name
-        
         return element[:points]
       end
       
@@ -51,9 +50,8 @@ def shoe_size(player_name)
     information[:players].each do |element|
       
       if element[:name] == player_name
-        answer = element[:shoe]
+        return element[:shoe]
         
-        return answer
       end
       
     end
